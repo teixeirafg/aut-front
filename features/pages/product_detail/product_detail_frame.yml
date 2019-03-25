@@ -1,0 +1,6 @@
+product_detail.tb_inframe_content:
+  description: "Encontra o frame TB_inframeContent"
+  desktop:
+    default: "TB_iframeContent"
+  mobile:
+    default: ""

@@ -1,0 +1,55 @@
+# Arquivo YML responsável por armazenar os skus de coleções específicas para serem
+# utilizados como massa
+
+sku:
+    casasbahia:
+        sku_comum: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_agendada: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_retira_lockers_sp: '14023,17686'
+        sku_garantia: '12585183,13737066,12727741'
+        sku_mkt: '5496059'
+        sku_download: '12531637'
+        sku_tecnoponto: '13215836'
+        sku_mesmo_dia: '12138111'
+        sku_mesmo_dia2: '11437000'
+        sku_mesmo_dia3: '13042907'
+        sku_mesmo_dia4: '5082526'
+        sku_retira_loja_leve_sp: '3653034'
+        sku_retira_loja1_leve_sp: '4826630'
+        sku_retira_loja_pesado_rj: '3046'
+        sku_retira_loja1_pesado_sp: '2197'
+        sku_retira_loja_leve_rj: '3048'
+        sku_retira_lockers_rj: '706208'
+        sku_retira_correios_sp: '14023'
+        sku_retira_correios_rj: '11520181'
+        sku_kit: '1000034157'
+        sku_kit_avulso: '451772'
+        sku_kit2: '1000049847'
+        sku_kit2_avulso: '3531506'
+    pontofrio:
+        sku_comum: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_agendada: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_retira_lockers_sp: '14023,17686'
+        sku_garantia: '12585183,13737066,12727741'
+    extra:
+        sku_comum: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_agendada: '17686,17693,17727,17728,17729,17731,17734,17735'
+        sku_retira_lockers_sp: '14023,17686'
+        sku_garantia: '12585183,13737066,12727741'
+    barateiro:
+        sku_comum: '8901963,6347097,10340201'
+        sku_agendada: '8901963,6347097,10340201'
+        sku_garantia: '4934879'
+
+
+cep:
+  Normal_SP:  '01152-010'
+  Normal_RJ:  '22060-900'
+  Retira_SP:  '01152-010'
+  Retira_RJ:  '22060-900'
+  Locker_SP:  '01425-010'
+  Locker_RJ:  '22060-900'
+  Correio_SP: '09510-020'
+  Correio_RJ: '22060-900'
+  Mesmo_Dia:  '01531-000'
+

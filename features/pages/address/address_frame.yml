@@ -1,0 +1,8 @@
+address.social_miner:
+  description: "Encontra o frame social miner"
+  desktop:
+    default: ""
+  mobile:
+    default: "social-onsite"
+
+

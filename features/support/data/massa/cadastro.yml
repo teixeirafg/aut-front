@@ -1,0 +1,100 @@
+# Arquivo YML responsável por armazenar os dados de cadastro para serem
+# utilizados como massa
+
+# --------------------------Dados de Login--------------------------
+login:
+
+  qa_1:
+    email: 'user_automacao03112014_090638117@cnova.com,user_automacao03112014_090638288@cnova.com,user_automacao03112014_090638475@cnova.com,user_automacao03112014_090638741@cnova.com,user_automacao03112014_090638912@cnova.com,user_automacao03112014_090639037@cnova.com,user_automacao03112014_090639209@cnova.com,user_automacao03112014_090639349@cnova.com,user_automacao03112014_090639474@cnova.com,user_automacao03112014_090639677@cnova.com'
+    senha: '123456'
+    email_mobile: 'user_automacao03112014_090640425@cnova.com,user_automacao03112014_090647679@cnova.com,user_automacao03112014_090647804@cnova.com,user_automacao03112014_090647991@cnova.com,user_automacao03112014_090648163@cnova.com,user_automacao03112014_090648413@cnova.com,user_automacao03112014_090639848@cnova.com,user_automacao03112014_090640020@cnova.com,user_automacao03112014_090640223@cnova.com'
+    senha_mobile: '123456'
+
+  #  email: 'vv_qa_automacao@gmail.com'
+  #  senha: 'Varejo123'
+
+  qa_2:
+    email: 'user_automacao03112014_090640597@cnova.com,user_automacao03112014_090640878@cnova.com,user_automacao03112014_090641049@cnova.com,user_automacao03112014_090641315@cnova.com,user_automacao03112014_090641595@cnova.com,user_automacao03112014_090641814@cnova.com,user_automacao03112014_090642048@cnova.com,user_automacao03112014_090643015@cnova.com'
+    senha: '123456'
+    email_mobile: 'user_automacao03112014_090643265@cnova.com,user_automacao03112014_090643421@cnova.com,user_automacao03112014_090643935@cnova.com,user_automacao03112014_090648740@cnova.com,user_automacao03112014_090648584@cnova.com,user_automacao03112014_090642438@cnova.com,user_automacao03112014_090642609@cnova.com,user_automacao03112014_090642812@cnova.com'
+    senha_mobile: '123456'
+
+  qa_3:
+    email: 'user_automacao03112014_090644357@cnova.com,user_automacao03112014_090644747@cnova.com,user_automacao03112014_090645012@cnova.com,user_automacao03112014_090645215@cnova.com,user_automacao03112014_090645433@cnova.com,user_automacao03112014_090647071@cnova.com,user_automacao03112014_090647321@cnova.com,user_automacao03112014_090647492@cnova.com'
+    senha: '123456'
+    email_mobile: 'user_automacao03112014_090645620@cnova.com,user_automacao03112014_090645854@cnova.com,user_automacao03112014_090646088@cnova.com,user_automacao03112014_090646338@cnova.com,user_automacao03112014_090646447@cnova.com,user_automacao03112014_090646665@cnova.com,user_automacao03112014_090646806@cnova.com'
+    senha_mobile: '123456'
+
+  #  email: 'vv_qa_automacao_2@gmail.com'
+  #  senha: 'Varejo123'
+
+  usuarioValido:
+    email: 'marcos.barbosa@groove.tech'
+    senha: 'Br@sil123'
+
+  usuarioValido2:
+    email: 'qautomacao@gmail.com'
+    senha: 'Br@sil123'
+
+  usuarioLucas:
+    email: 'vinicius.rosa@cnova.com'
+    senha: 'teste2017'
+
+  usuarioLucasTeste:
+    email: 'teste@testeqa123.com'
+    senha: 'Br@sil123'
+
+  usuarioGuilhermeTeste:
+    email: 'guilhermeteste10@groove.tech'
+    senha: 'teste2018'
+
+  userAutomacao:
+    email: 'nerso@nerso.com'
+    senha: '123456'
+
+  usuarioBlackList:
+    email: 'user_automacao03112014_090635262@cnova.com'
+    senha: '123456'
+  usuarioBlackList2:
+    email: 'user_automacao02.02.2017_03.45.50.596@cnova.com'
+    senha: '123456'
+  usuarioBlackList3:
+    email: 'user_automacao02.03.2017_05.40.00.149@cnova.com'
+    senha: '123456'
+
+  usuarioBlackList4:
+    email: 'user_automacao03.03.2017_02.40.03.758@cnova.com'
+    senha: '123456'
+
+  usuarioBlackList5:
+    email: 'user_automacao03.03.2017_05.16.10.794@cnova.com'
+    senha: '123456'
+
+  usuarioBlackListPJ:
+    email: 'user_automacao20.08.2015_04.10.01.307@cnova.com'
+    senha: '123456'
+
+  usuarioPfIntegracao:
+    email: 'qaintegracao@teste.com'
+    senha: 'Br@sil123'
+
+  usuarioMesmoDia:
+    email: 'testes@mesmodia.com'
+    senha: 'E123456'
+
+  usuarioExpressa:
+    email: 'teste@expressa.com.br'
+    senha: 'E123456'
+
+
+# --------------------------Dados de cadastro--------------------------
+
+registro:
+  dados_validos:
+  nome: 'João da Silva'
+  cpf: '13245648486'
+  phone: 11988233005
+  phone2: 11988233005
+  dataNasc: 01/01/1994
+  email: joao.silva@hotmail.com
+  password: 'ViaVarejo2017'

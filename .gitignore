@@ -1,0 +1,12 @@
+*.json
+*.html
+debug.log
+Gemfile.lock
+/.idea/
+/.idea
+\.idea
+/evidences/
+*.log
+/reports/
+/aut-api-rest/
+/screenshots/

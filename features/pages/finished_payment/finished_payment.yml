@@ -1,0 +1,41 @@
+finished_payment.numero_pedido:
+ description: "Encontra o número do pedido"
+ desktop:
+   finder: xpath
+   default: ".//strong[@ng-bind='compraFinalizadaCtrl.Compra.idCompra']"
+ mobile:
+   finder: css
+   default: ".order-number .strong"
+
+finished_payment.close_ebit_modal:
+  description: "Fecha o modal do ebit"
+  mobile:
+    finder: css
+    default: "#btFechar"
+
+finished_payment.close_debit_payment_modal:
+  description: "Fecha o modal de compra com debito"
+  desktop:
+    finder: css
+    default: ".fechar #btnFechar"
+
+finished_payment.go_to_orders:
+  description: "Vai para a tela de pedidos"
+  desktop:
+    finder: css
+    default: ".bt.btMeusPedidos"
+  mobile:
+    finder: css
+    default: ".link"
+
+finished_payment.go_to_orders_link:
+  description: "Vai para a tela de confirmação de pedidos através do link"
+  desktop:
+    finder: css
+    default: ".pedidos .lnk"
+
+
+
+
+
+

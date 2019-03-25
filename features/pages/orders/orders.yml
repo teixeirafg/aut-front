@@ -1,0 +1,67 @@
+orders.title_meus_pedidos:
+  description: "Acessa a tela de meus pedidos"
+  desktop:
+    finder: xpath
+    default: ".//h1[contains(text(),'Meus Pedidos')]"
+  mobile:
+    finder: css
+    default: ""
+
+orders.input_numero_pedido:
+  description: "Encontra o número do pedido"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='ctl00_Conteudo_txtIdCompra']"
+    finder_barateiro: css
+    barateiro: "#Conteudo_txtIdCompra"
+  mobile:
+    finder: ''
+    default: ''
+
+orders.button_buscar:
+  description: "Encontra o botão para buscar o pedido"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='ctl00_Conteudo_btnPesquisaIdCompra']"
+    finder_barateiro: css
+    barateiro: "#Conteudo_btnPesquisaIdCompra"
+  mobile:
+    finder: ''
+    default: ''
+
+orders.td_numero_pedido:
+  description: "Encontra a lista com número do pedido"
+  desktop:
+    finder: xpath
+    default: ".//a[@id='ctl00_Conteudo_rptListaCompras_ctl00_lkbIdCompra']"
+    finder_barateiro: css
+    barateiro: ".num.first"
+  mobile:
+    finder: ''
+    default: ''
+
+orders.table_pedidos:
+  description: "Encontra a tabela com número do pedido"
+  desktop:
+    finder: xpath
+    default: ".//table[@class='tbCompra']"
+    finder_barateiro: css
+    barateiro: ".tbCompra"
+  mobile:
+    finder: ''
+    default: ''
+
+orders.detail_order_td_qtd:
+  description: "Encontra a quantidade de produtos em 'Detalhes do pedido'"
+  desktop:
+    finder: xpath
+    default: ".//tr[@id='ctl00_Conteudo_rptListaCompras_ctl00_rptEntregas_ctl00_rptProdutos_ctl00_trProduto']/td[@class='qtd']"
+  mobile:
+    finder: ''
+    default: ''
+
+orders.my_profile_tab:
+  description: "Encontra a aba do perfil do usuário"
+  desktop:
+    finder: css
+    default: "#ctl00_Conteudo_lnkMeuPerfil"

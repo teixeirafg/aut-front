@@ -1,0 +1,93 @@
+account.title:
+  description: "Verifica que está na página da conta do usuário"
+  desktop:
+    finder: css
+    default: ".bcEndereco.on"
+  mobile:
+    finder: css
+    default: ".btn.neutral.expanded"
+    extra: ".btn-container"
+
+account.access_user_data:
+  description: "Acessa os dados do usuário mobile"
+  mobile:
+    finder: css
+    default: ""
+
+account.change_password_option:
+  description: "Seleciona a opção de alteração de senha"
+  desktop:
+    finder: css
+    default: ".bt.btPassword.linkAlterarSenha"
+
+account.current_password:
+  description: "Encontra o campo de senha atual"
+  desktop:
+    finder: css
+    default: "#SenhaAntiga"
+
+account.new_password:
+  description: "Encontra o campo de nova senha"
+  desktop:
+    finder: css
+    default: "#NovaSenha"
+
+account.confirm_new_password:
+  description: "Encontra o campo de confirmação de nova senha"
+  desktop:
+    finder: css
+    default: "#ConfirmarNovaSenha"
+
+account.save_changes_password:
+  description: "Salva as alterações"
+  desktop:
+    finder: css
+    default: "#btnAlterarSenha"
+
+account.success_message_password:
+  description: "Salva as alterações"
+  desktop:
+    finder: css
+    default: "#divSucesso>p"
+
+account.change_email_option:
+  description: "Encontra a opção de alterar o email"
+  desktop:
+    finder: css
+    default: "#btnEmailMudou"
+
+account.new_email:
+  description: "Encontra o campo de novo email"
+  desktop:
+    finder: css
+    default: "#EmailNovo"
+
+account.confirm_new_email:
+  description: "Encontra o campo de novo email"
+  desktop:
+    finder: css
+    default: "#ConfirmarEmailNovo"
+
+account.confirm_password_to_change_email:
+  description: "Encontra o campo de senha"
+  desktop:
+    finder: css
+    default: "#Senha"
+
+account.save_changes_email:
+  description: "Encontra o botão de salvar a alteração"
+  desktop:
+    finder: css
+    default: "#btnAlterarEmail"
+
+account.success_message_email:
+  description: "Encontra a confirmação de email alterado com sucesso"
+  desktop:
+    finder: css
+    default: "#emailMudouSucesso"
+
+
+
+
+
+

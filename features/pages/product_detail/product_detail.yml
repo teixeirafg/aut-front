@@ -1,0 +1,163 @@
+product_detail.title:
+  description: "Verifica que está na pdp"
+  desktop:
+    finder: css
+    default: ".produtoNome"
+  mobile:
+    finder: css
+    default: ".prod-detail-label"
+
+product_detail.button_comprar:
+  description: "Clica no botão 'comprar' da PDP"
+  desktop:
+    finder: xpath
+    default: ".//a[@id='btnAdicionarCarrinho']"
+  mobile:
+    finder: css
+    default: "#btnComprar"
+    barateiro: ".btn.btn-primary.expanded.button-buy.button-margin"
+    extra: ".prod .btn.btn-primary.expanded.btn-large"
+    pontofrio: "[data-id-elem='btnBuy']"
+
+product_detail.button_retira:
+  description: "Clica no botão 'Retira' da PDP"
+  desktop:
+    finder: xpath
+    default: ".//a[@id='ctl00_Conteudo_ctl34_btnRetirarNaLoja']"
+  mobile:
+    finder: ''
+    default: ''
+
+# ----- Modal Retira -----
+product_detail.modal_withdraw_input_cep:
+  description: "Encontra o campo para informar o cep"
+  desktop:
+    finder: xpath
+    default: ".//input[@class='search-modal ng-untouched ng-invalid ng-dirty']"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_div_modal_principal:
+  description: "Encontra a div 'Modal Principal'"
+  desktop:
+    finder: xpath
+    default: ".//div[@id='modal-principal' and @style=\"\"]"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_magnifier:
+  description: "Encontra o ícone 'Lupa'"
+  desktop:
+    finder: xpath
+    default: ".//input[@class='lupa-modal home']"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_div_establishment_random:
+  description: "Clica no estabelecimento de retirada - Retira"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja']/parent::div"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_div_establishment_withdraw:
+  description: "Clica no estabelecimento de retirada - Retira"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja' and @type='hidden' and @value=1]/parent::div"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_establishment_lockers:
+  description: "Encontra o estabelecimento de retirada - Lockers"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja' and @type='hidden' and @value=2]/parent::div"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_div_establishment_post_offices:
+  description: "Encontra o  estabelecimento de retirada - Correios"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja' and @type='hidden' and @value=3]/parent::div"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_establishment_withdraw_stock_store:
+  description: "Encontra o estabelecimento retira - estoque loja"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja' and @value=1]/parent::div/following-sibling::div/strong[(contains(text(),'2h*'))]"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_withdraw_establishment_withdraw_stock_site:
+  description: "Encontra o estabelecimento retira - estoque site"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='tipoLoja' and @value=1]/parent::div/following-sibling::div/strong[not(contains(text(),'2h*'))]"
+  mobile:
+    finder: ''
+    default: ''
+
+
+product_detail.modal_withdraw_button_withdraw_location:
+  description: "Clica no botão Retirar neste Local"
+  desktop:
+    finder: xpath
+    default: ".//a[@title='Retirar neste local']"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_click:
+  description: "Clica no modal"
+  desktop:
+    finder: css
+    default: ".chamada-modal"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_option_withdraw_2h:
+  description: "Clica no na opção de estabelecimemntos 'Retira em 2h'"
+  desktop:
+    finder: xpath
+    default: ".//div[@class='filtro-resultado-estabelecimento']/descendant::a[*[contains(text(),'Retire em')]]"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.modal_loader_establishment:
+  description: "Encontra a div loader do modal Retira rápido"
+  desktop:
+    finder: xpath
+    default: ".//div[@class='loader-modal']"
+  mobile:
+    finder: ''
+    default: ''
+
+product_detail.link_more_options:
+  description: "Encontra o link '+ opções'"
+  desktop:
+    finder: xpath
+    default: ".//a[@id='ctl00_Conteudo_ctl39_lnkMaisOpcoes']"
+  mobile:
+    finder: ''
+    default: ''
+
+
+
+
+
+

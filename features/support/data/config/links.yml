@@ -1,0 +1,278 @@
+# Arquivo YML responsável por armazenar todos os links de acesso as páginas do site
+# das bandeiras
+
+#local: http://www.bandeirahlg.net
+login: /Checkout?ReturnUrl=https://www.casasbahia.com.br#login
+#login: http://carrinho.bandeirahlg.net/Checkout?ReturnUrl=https://www.bandeirahlg.net#login
+sku: https://bandeira.com.br/sku.html
+#sku: http://www.bandeirahlg.net/sku.html
+buscas: https://buscas.bandeira.com.br
+buscando: https://buscando.bandeira.com.br
+search: https://search.bandeira.com.br
+url_ck_responsivo: https://checkout.bandeira.com.br/
+url_ck_login_responsivo: https://checkout.barateiro.com.br/Login
+#retira: http://www.bandeirahlg.net/pontoretirada?idSku=sku_massa&idLojista=10037&KeepThis=true&TB_iframe=true&height=630&width=990
+retira: https://www.bandeira.com.br/pontoretirada?idSku=sku_massa&idLojista=10037&KeepThis=true&TB_iframe=true&height=630&width=990
+
+############### Header/Footer ########################
+meus_pedidos: carrinho.bandeira.com.br/Site/MeusPedidos.aspx
+duvidas: bandeira.com.br/CentraldeAtendimento/atendimento.aspx
+atendimento: atendimento.bandeira.com.br/
+retira_rapido: bandeira.com.br/servicos/retira-rapido.aspx
+carrinho: carrinho.bandeira.com.br/
+lista_casamento: casamento.bandeira.com.br/
+televendas: Televendas
+nossas_lojas: institucional.bandeira.com.br/lojas
+nossas_lojas_ex: localizador.bandeira.com.br/storeSearch/
+cartao_casas_bahia: bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+ponto_frio_integracao: www.bandeiraintegracaohlg.net
+
+############### Departamentos #########################
+Ar e Ventilação: bandeira.com.br/ArVentilacao/?Filtro=C2809
+Áudio: bandeira.com.br/audio/?Filtro=C3279
+Automotivo: bandeira.com.br/automotivo/?Filtro=C836
+Beleza e Saúde: bandeira.com.br/BelezaSaude/?Filtro=C102
+Celulares e Telefones: bandeira.com.br/TelefoneseCelulares/?Filtro=C38
+Eletrodomésticos: bandeira.com.br/Eletrodomesticos/?Filtro=C13
+Eletrodomésticos_pf: bandeira.com.br/eletrodomesticos/?Filtro=C13
+Eletrodomésticos_ex: bandeira.com.br/eletrodomesticos/?Filtro=C13
+Eletroportáteis: bandeira.com.br/Eletroportateis/?Filtro=C73
+Móveis: bandeira.com.br/Moveis/?Filtro=C93
+TVs e Acessórios: bandeira.com.br/tvseacessorios/?Filtro=C1
+Alimentos: bandeira.com.br/Alimentos/?Filtro=C2339
+Artesanato: bandeira.com.br/Artesanato/?Filtro=C2599
+Artesanato_ex: bandeira.com.br/artesanato/?Filtro=C2599
+Artigos para Festa: bandeira.com.br/artigosparafestas/?Filtro=C2894
+Artigos para Festas: bandeira.com.br/artigosparafestas/?Filtro=C2894
+Bebês: bandeira.com.br/bebes/?Filtro=C983
+Bebidas: bandeira.com.br/Bebidas/?Filtro=C2596
+Brinquedos: bandeira.com.br/brinquedos/?Filtro=C977
+Câmeras e Filmadoras: bandeira.com.br/CineFoto/?Filtro=C29
+Cama, Mesa e Banho: bandeira.com.br/CamaMesaBanho/?Filtro=C1732
+Cama, Mesa e Banho_pf: bandeira.com.br/camamesabanho/?Filtro=C1732
+Cama, Mesa e Banho_ex: bandeira.com.br/camamesabanho/?Filtro=C1732
+Casa e Construção: bandeira.com.br/MaterialparaConstrucao/?Filtro=C2547
+Casa e Construção_pf: bandeira.com.br/construcao/?Filtro=C2547
+Casa e Construção_ex: bandeira.com.br/construcao/?Filtro=C2547
+Decoração: bandeira.com.br/decoracao/?Filtro=C3359
+DVDs e Blu-Ray: bandeira.com.br/dvdsebluray/?Filtro=C833
+Esporte e Lazer: bandeira.com.br/EsporteLazer/?Filtro=C418
+Ferramentas: bandeira.com.br/Ferramentas/?Filtro=C827
+Flores: bandeira.com.br/Flores/?Filtro=C1900
+Games: bandeira.com.br/Games/?Filtro=C336
+Informática: bandeira.com.br/Informatica/?Filtro=C56
+Instrumentos Musicais: bandeira.com.br/InstrumentosMusicais/?Filtro=C2471
+Instrumentos Musicais_ex: bandeira.com.br/instrumentosmusicais/?Filtro=C2471
+Joias: bandeira.com.br/Joias/?Filtro=C2168
+Joias_ex: bandeira.com.br/joias/?Filtro=C2168
+Linha Industrial: bandeira.com.br/LinhaIndustrial/?Filtro=C1017
+Linha Industrial_pf: bandeira.com.br/EletrodomesticosLinhaIndustrial/?Filtro=C1017
+Linha Industrial_ex: bandeira.com.br/EletrodomesticosLinhaIndustrial/?Filtro=C1017
+Livros: bandeira.com.br/livros/?Filtro=C484
+Malas: bandeira.com.br/malasemochilas/?Filtro=C1813
+Malas e Mochilas: bandeira.com.br/malasemochilas/?Filtro=C1813
+Moda: bandeira.com.br/Moda/?Filtro=C1734
+Moda_ex: bandeira.com.br/moda/?Filtro=C1734
+Natal: bandeira.com.br/natal/?Filtro=C2042
+Papelaria: bandeira.com.br/Papelaria/?Filtro=C1639
+Papelaria_pf: /papelaria/?Filtro=C1639
+Papelaria_ex: bandeira.com.br/papelaria/?Filtro=C1639
+Perfumaria: bandeira.com.br/Perfumaria/?Filtro=C1886
+Pet Shop: bandeira.com.br/PetShop/?Filtro=C2294
+Pet Shop_ex: bandeira.com.br/petshop/?Filtro=C2294
+Produtos Importados: bandeira.com.br/?Filtro=D15005
+Produtos Importados_pf: bandeira.com.br/?Filtro=D23651
+Produtos Importados_ex: bandeira.com.br/?Filtro=D23185
+Produtos de Limpeza: bandeira.com.br/ProdutosdeLimpeza/?Filtro=C2285
+Relógios: bandeira.com.br/Relogios/?Filtro=C1733
+Suplementos Alimentares: bandeira.com.br/EsporteLazer/SuplementosAlimentares/?Filtro=C418_C2667
+Tablet: bandeira.com.br/Tablets/?Filtro=C2031
+Tablets: bandeira.com.br/tablets/?Filtro=C2031
+Utilidades Domésticas: bandeira.com.br/UtilidadesDomesticas/?Filtro=C371
+Cine e Foto: bandeira.com.br/CineFoto/?Filtro=C29
+Festival de Verão: bandeira.com.br/ofertas/verao.aspx
+Malas: bandeira.com.br/malasemochilas/?Filtro=C1813
+Móveis e Colchões: bandeira.com.br/Moveis/?Filtro=C93
+Telefones e Celulares: bandeira.com.br/TelefoneseCelulares/?Filtro=C38
+Alimentos e Bebidas: deliverybandeira.com.br
+Calçados: bandeira.com.br/calcados/?Filtro=C448
+Vinhos e Cervejas: bandeira.com.br/bebidas/?Filtro=C2596
+
+link_departamento:
+  tenis: bandeira.com.br/tenis/masculino?mi=hm_ger_mntop_H-CAL-calcados-tenis&psn=Menu_Top
+  Telefonia: bandeira.com.br/TelefoneseCelulares/?Filtro=C38
+  Eletrodomésticos: bandeira.com.br/Eletrodomesticos/?Filtro=C13
+  TVs e Acessórios: bandeira.com.br/tvseacessorios/?Filtro=C1
+  Móveis: bandeira.com.br/Moveis/?Filtro=C93
+  Eletroportáteis: bandeira.com.br/Eletroportateis/?Filtro=C73
+  Informática: bandeira.com.br/Informatica/?Filtro=C56
+  Serviços: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Ofertas da TV: bandeira.com.br/?Filtro=D20659
+  Ofertas Retira: bandeira.com.br/?Filtro=D12031
+
+abas:
+  Telefonia:
+    Samsung: bandeira.com.br/TelefoneseCelulares/Samsung/?Filtro=C38_M459
+    Lg: bandeira.com.br/TelefoneseCelulares/LG/?Filtro=C38_M299
+    Motorola: bandeira.com.br/TelefoneseCelulares/Motorola/?Filtro=C38_M356
+    Smartphones: bandeira.com.br/loja/smartphones
+    Samsung Galaxy S: bandeira.com.br/loja/samsung-galaxy-s
+    Samsung Galaxy J: bandeira.com.br/loja/samsung-galaxy-j
+    iPhone: bandeira.com.br/loja/iphone
+    Motorola: bandeira.com.br/loja/motorola
+    Zenfone: bandeira.com.br/loja/zenfone
+    Seguro de Garantia Estendida: bandeira.com.br/AlamedadeServicos/?Filtro=C2673#vantagens
+  Eletrodomésticos:
+    Brastemp: bandeira.com.br/Eletrodomesticos/Brastemp/?Filtro=C13_M62
+    Eletrolux: bandeira.com.br/Eletrodomesticos/Electrolux/?Filtro=C13_M165
+    Consul: bandeira.com.br/Eletrodomesticos/Consul/?Filtro=C13_M117
+    Geladeira: bandeira.com.br/?Filtro=D21216
+    Freezer: bandeira.com.br/Eletrodomesticos/Freezer/?Filtro=C13_C15
+    Máquina de Lavar: bandeira.com.br/Eletrodomesticos/maquinadelavar/?Filtro=C13_C24
+    Lava e Seca: bandeira.com.br/Eletrodomesticos/LavadorasLavaeSeca/?Filtro=C13_C813
+    Secadoras de Roupas: bandeira.com.br/Eletrodomesticos/SecadorasdeRoupas/?Filtro=C13_C26
+    Tanquinho: bandeira.com.br/Eletrodomesticos/Tanquinho/?Filtro=C13_C1599
+    Centrífuga de Roupas: bandeira.com.br/Eletrodomesticos/centrifugaderoupas/?Filtro=C13_C2878
+    Fogões: bandeira.com.br/Eletrodomesticos/Fogoes/?Filtro=C13_C19
+    Cooktop: bandeira.com.br/Eletrodomesticos/cooktop/?Filtro=C13_C159
+    Micro-ondas: bandeira.com.br/Eletrodomesticos/FornodeMicroondas/?Filtro=C13_C21
+    Forno de Embutir: bandeira.com.br/Eletrodomesticos/FornodeEmbutir/?Filtro=C13_C20
+    Coifas: bandeira.com.br/Eletrodomesticos/Coifas/?Filtro=C13_C23
+    Eletrodomésticos: bandeira.com.br/Eletrodomesticos/Fogoes/Piso6Bocas/Brastemp/?Filtro=C13_C19_C162_M62
+  Móveis:
+    Guarda-roupa: bandeira.com.br/Moveis/quartos/guardaroupa/?Filtro=C93_C94_C298
+    Colchões: bandeira.com.br/Moveis/Colchoes/?Filtro=C93_C1095
+    Sofás: bandeira.com.br/Moveis/SaladeEstar/Sofas/?Filtro=C93_C97_C320
+    Cozinhas: bandeira.com.br/Moveis/movelparaCozinha/?Filtro=C93_C693
+    Sala de Jantar: bandeira.com.br/Moveis/SaladeJantar/?Filtro=C93_C691
+    Escritório: bandeira.com.br/Moveis/escritorio/?Filtro=C93_C96
+    Quarto Infantil: bandeira.com.br/Moveis/QuartoInfantilBebe/?Filtro=C93_C99
+    Racks: bandeira.com.br/Moveis/SaladeEstar/Racks/?Filtro=C93_C97_C682
+    Cômodas: bandeira.com.br/Moveis/quartos/Comodas/?Filtro=C93_C94_C672
+    Penteadeiras: bandeira.com.br/Moveis/quartos/PenteadeiraeToucador/?Filtro=C93_C94_C721
+    Bar: bandeira.com.br/Moveis/bar/?Filtro=C93_C692
+    Área de Serviço: bandeira.com.br/Moveis/AreadeServico/?Filtro=C93_C101
+  Informática:
+    Samsung: bandeira.com.br/Informatica/Samsung/?Filtro=C56_M459
+    Hp: bandeira.com.br/Informatica/HP/?Filtro=C56_M240
+    Multilaser: bandeira.com.br/Informatica/Multilaser/?Filtro=C56_M370
+    Notebook Dell i3 Linux: bandeira.com.br/Informatica/Notebook/notebook-dell-core-i3-6006u-4gb-1tb-tela-15-6-linux-inspiron-i15-5566-d10p-11481125.html
+    Notebook Dell i3 Windows 10: bandeira.com.br/Informatica/Notebook/notebook-dell-core-i3-6006u-4gb-1tb-tela-15-6-windows-10-inspiron-i15-5566-a10p-11481103.html
+    Notebook Dell i7: bandeira.com.br/Informatica/Notebook/notebook-dell-core-i7-7500u-8gb-1tb-placa-grafica-2gb-tela-15-6-windows-10-inspiron-i15-5566-a70b-12289826.html
+    Notebook Lenovo: bandeira.com.br/Informatica/Notebook/notebook-lenovo-dual-core-4gb-1tb-tela-15-6-windows-10-ideapad-320-11654826.html
+    Notebook Samsung: bandeira.com.br/Informatica/Notebook/notebook-samsung-core-i5-7200u-8gb-1tb-placa-grafica-2gb-tela-15-6-windows-10-expert-x23-np300e5m-xd1br-11516154.html
+    Multifuncional Epson: bandeira.com.br/Informatica/impressoramultifuncional/JatodeTinta/multifuncional-tanque-de-tinta-epson-ecotank-l395-wireless-impressora-copiadora-e-scanner-11461918.html
+    Multifuncional Canon: bandeira.com.br/Informatica/impressoramultifuncional/JatodeTinta/multifuncional-tanque-de-tinta-canon-pixma-g3100v-wireless-impressora-copiadora-e-scanner-11815260.html
+    Notebook Positivo: bandeira.com.br/Informatica/Notebook/notebook-positivo-quad-core-2gb-32gb-ssd-tela-14-windows-10-motion-q232a-11819195.html
+    Lenovo: bandeira.com.br/Informatica/Lenovo/?Filtro=C56_M294
+    Acer: bandeira.com.br/Informatica/Acer/?Filtro=C56_M1
+    Positivo: bandeira.com.br/Informatica/Positivo/?Filtro=C56_M429
+    Garantia Estendida: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Serviços:
+    Download/Games: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Fique Seguro: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Instalações: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Lista de Casamento: bandeira.com.br/listadecasamento/home.aspx
+    Montagem de Móveis: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Multiassistência: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Recompra: bandeira.com.br/recompra/aparelhos-usados.aspx
+    Retira Rápido: bandeira.com.br/servicos/retira-rapido.aspx
+    Revelação Digital: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+    Seguro de Garantia Estendida Original: bandeira.com.br/hotsite/garantia-estendida.aspx
+    Seguro Auto: seguros.bandeira.com.br/
+    Soluções Corporativas: bandeira.com.br/b2b/solucoes-corporativas.aspx
+    Cartão Casas Bahia: bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+
+  links:
+    Cartão Casas Bahia: bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+    Móveis Planejados: bandeira.com.br/moveis-planejados/home.aspx
+    Gol de Placa: bandeira.com.br/ofertas/gol-de-placa.aspx
+    Galaxy S9: bandeira.com.br/?Filtro=D24207
+    Saldão: bandeira.com.br/?Filtro=D24198
+    Ar e Vantilação: bandeira.com.br/?Filtro=D24196
+    Geladeira: bandeira.com.br/?Filtro=D21216
+    Entrega Expressa: bandeira.com.br/?Filtro=D24199
+
+############################# Serviços #########################################
+Atacado: bandeiraatacado.com.br/
+Seguro de Garantia Estendida Original: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Fique Seguro: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Download / Games: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Download/Games: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Montagem de Móveis: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Instalações: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Revelação Digital: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Multiassistência: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+Lista de Casamento: casamento.bandeira.com.br/
+Retira Rápido: bandeira.com.br/servicos/retira-rapido.aspx
+Cartão Casas Bahia: bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+Cartão Pontofrio: bandeira.com.br/cartaopontofrio/cartao.aspx
+
+########################### Footer #############################################
+footer:
+  Atendimento para Internet ou Televendas: bandeira.com.br/CentraldeAtendimento/atendimento.aspx
+  Atendimento para Loja Física: institucional.bandeira.com.br/fale-conosco
+  Sobre a Entrega: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?lista=8
+  Sobre a entrega: bandeira.com.br/centraldeatendimento/home.aspx
+  Política de Troca e Devolução: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=313
+  Nota Fiscal Eletrônica: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?lista=17
+  Editar meu Cadastro: carrinho.bandeira.com.br/Cliente/MeuPerfil
+  Nota Fiscal Paulista: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=138
+  Seguro de Garantia Estendida Original: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Termos e Condições de Uso: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=994
+  Quantidade de itens por pedido: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=1017
+  Prepare-se para o Black Friday: bandeira.com.br/blackfriday/blackfriday.aspx
+  Prepare-se para a BlackFriday: bandeira.com.br/blackfriday/blackfriday.aspx
+  Sobre as Casas Bahia:  institucional.bandeira.com.br/empresa/nossa-historia
+  Cartão Casas Bahia: bandeira.com.br/hotsite/cartao-casas-bahia.aspx
+  Nossas Lojas: bandeira-imagens.com.br/pdf/nossasFiliais.pdf
+  Lojas Físicas: institucional.bandeira.com.br/lojas
+  Privacidade e Segurança: bandeira.com.br/CentraldeAtendimento/atendimento.aspx?topico=136
+  Trabalhe Conosco: viavarejo.com.br/rh
+  Trabalhe conosco: viavarejo.com.br/rh
+  Lista de Casamento: casamento.bandeira.com.br
+  Mapa do Site: bandeira.com.br/mapadosite/mapadosite.aspx
+  Anuncie com a gente: cnovaads.com.br/
+  Venda seus produtos nas Casas Bahia: http://viavarejonegocios.com.br/
+  Palavras mais Buscadas: buscas.bandeira.com.br/
+  Atendimento para Internet ou Televendas_pf: bandeira.com.br/centraldeatendimento/home.aspx
+  Nota Fiscal Paulista_pf: bandeira.com.br/centraldeatendimento/home.aspx?topico=82
+  Como pagar: bandeira.com.br/centraldeatendimento/home.aspx
+  Sobre a Entrega_pf: bandeira.com.br/centraldeatendimento/home.aspx
+  Política de Troca e Devolução_pf: bandeira.com.br/centraldeatendimento/home.aspx?topico=302
+  Política e Privacidade: bandeira.com.br/centraldeatendimento/home.aspx
+  Termos e Condições de Uso_pf: bandeira.com.br/centraldeatendimento/home.aspx?topico=997
+  Quantidade de itens por pedido_pf: bandeira.com.br/centraldeatendimento/home.aspx?topico=1017
+  Retira Rápido: bandeira.com.br/servicos/retira-rapido.aspx
+  Revelação Digital: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Seguro de Garantia Estendida Original_pf: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Pontofrio Atacado: bandeiraatacado.com.br/
+  Entrega Agendada: bandeira.com.br/centraldeatendimento/home.aspx
+  Palavras mais Buscadas_pf: search.bandeira.com.br/
+  Conheça o Pontofrio: institucional.bandeira.com.br/empresa/nossa-historia
+  Sobre o Pontofrio.com: bandeira.com.br/centraldeatendimento/home.aspx
+  Relação com Investidores: http://ri.viavarejo.com.br
+  Nossas Lojas_pf: institucional.bandeira.com.br/lojas
+  Ponto Premium: bandeira.com.br/lojafisica/pontofrio-premium-store.aspx
+  Programa de Afiliados: bandeira.com.br/afiliados/programa-de-afiliados.aspx
+  Via Varejo Ads: http://viavarejonegocios.com.br/ads
+  Atendimento Loja Física: http://faleconosco.grupopaodeacucar.com.br/extralojas/Home/FaleConosco
+  Prazos e locais de entrega: bandeira.com.br/CentraldeAtendimento/home.aspx?lista=8
+  Política de Troca e Devolução_ex: bandeira.com.br/CentraldeAtendimento/home.aspx?topico=298
+  Política de Privacidade: bandeira.com.br/CentraldeAtendimento/home.aspx?topico=14
+  Nota Fiscal Paulista_ex : bandeira.com.br/CentraldeAtendimento/home.aspx?topico=16
+  Termos e Condições de Uso_ex: bandeira.com.br/CentraldeAtendimento/home.aspx?topico=996
+  Quantidade de itens por pedido_ex: bandeira.com.br/CentraldeAtendimento/home.aspx?topico=1017
+  Meus Pedidos: carrinho.bandeira.com.br/Site/MeusPedidos.aspx
+  Editar Meu Cadastro: carrinho.bandeira.com.br/Site/MeuPerfil.aspx
+  Serviços: bandeira.com.br/AlamedadeServicos/?Filtro=C2673
+  Blog Extra: tudo.bandeira.com.br
+  Trabalhe Conosco_ex: bandeira.com.br/trabalhe-conosco/vagas.aspx
+  Anuncie com a Gente: http://viavarejonegocios.com.br/ads
+  Palavras mais Buscadas_ex: buscando.bandeira.com.br
+  Nosso manifesto. Vai que você pode!: bandeira.com.br/institucional/manifesto.aspx
+  Marketplace, Soluções & Serviços: http://viavarejonegocios.com.br
+
+#################finalizao da compra###############################
+finalizacao: "https://carrinho.bandeira.com.br/Compra/CompraFinalizada/"
+url_finalizacao: "https://carrinho.bandeira.com.br/Compra/CompraFinalizada/"

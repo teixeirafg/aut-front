@@ -1,0 +1,6 @@
+account.change_email_frame:
+  description: "Encontra o frame de alteração de email"
+  desktop:
+    default: "TB_iframeContent"
+
+

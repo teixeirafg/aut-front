@@ -1,0 +1,64 @@
+  <%
+    html_file_path = 'reports/html'
+    json_file_path = 'reports/json'
+    FileUtils.mkdir_p(html_file_path) unless File.exist?(html_file_path)
+    FileUtils.mkdir_p(json_file_path) unless File.exist?(json_file_path)
+    date = Time.now.strftime('%Y%m%d_%Hh%Mmin%Ss')
+    %>
+
+  parallel: --format json --out _<%= ENV['TEST_ENV_NUMBER']%>.json
+
+  default: -p json -p chrome
+
+    # Reports
+  report: -p default -p html -p json
+  html: --format pretty -f html -o <%= html_file_path %>/html_report_<%= date %>.html
+  json: --format pretty -f json -o <%= json_file_path %>/json_report_<%= date %>.json
+
+    # Ambientes
+  prd: AMBIENTE=prd
+  hlg: AMBIENTE=hlg
+  stg: AMBIENTE=stg
+
+    # Browsers
+  chrome: BROWSER=chrome
+  headless: HEADLESS=true
+  mobile: BROWSER=m.chrome MOBILE=true
+
+  # Jenkins
+  remote: REMOTE=true
+
+    # Bandeiras
+  cb: BANDEIRA=casasbahia
+  pf: BANDEIRA=pontofrio
+  ex: BANDEIRA=extra
+  bt: BANDEIRA=barateiro
+
+  #VMS
+  Porto02: VM_NODE="Porto02"
+  Porto03: VM_NODE="Porto03"
+  Porto04: VM_NODE="Porto04"
+  Porto05: VM_NODE="Porto05"
+  Porto06: VM_NODE="Porto06"
+
+  server_stage: SERVER_STAGE="
+      MAP www.casasbahia.com.br 10.128.132.28,
+      MAP www.google.com.br 10.128.132.28,
+      MAP carrinho.casasbahia.com.br 10.128.132.28,
+      MAP preco.api-casasbahia.com.br 10.128.132.28,
+      MAP api-b2c.casasbahia.com.br 10.128.132.28,
+      MAP www.casasbahia.com.br 10.128.132.28,
+      MAP m.casasbahia.com.br 10.128.132.28,
+      MAP carrinho.pontofrio.com.br 10.128.132.28,
+      MAP preco.api-pontofrio.com.br 10.128.132.28,
+      MAP api-b2c.pontofrio.com.br 10.128.132.28,
+      MAP www.pontofrio.com.br 10.128.132.28,
+      MAP m.pontofrio.com.br 10.128.132.28,
+      MAP carrinho.extra.com.br 10.128.132.28,
+      MAP preco.api-extra.com.br 10.128.132.28,
+      MAP api-b2c.extra.com.br 10.128.132.28,
+      MAP www.extra.com.br 10.128.132.28,
+      MAP m.extra.com.br 10.128.132.28,
+      MAP www.barateiro.com.br 10.128.132.142,
+      MAP carrinho.barateiro.com.br 10.128.132.142,
+      MAP api-b2c.barateiro.com.br 10.128.132.142"

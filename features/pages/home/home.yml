@@ -1,0 +1,37 @@
+home.link_registrar:
+ description: "Encontra o link que direciona para a tela de registro"
+ desktop:
+   finder: css
+   default: '#lnkCadastreSe'
+   pontofrio: '#MenuWelcomeDeslogado span:nth-child(1) a'
+ mobile:
+   finder: css
+   default: '.menu-item-content-user-register-link'
+   barateiro: '.login'
+
+home.hover_menu:
+  description: "Encontra o menu de login"
+  desktop:
+    finder: css
+    pontofrio: '.avatar-cliente'
+
+home.my_orders_link:
+  description: "Encontra o link de meus pedidos"
+  desktop:
+    finder: css
+    default: '#VerMeusPedidos'
+
+
+home.input_buscar:
+  description: "Encontra a caixa de texto de busca"
+  desktop:
+    finder: css
+    casasbahia: '#strBusca'
+    pontofrio: '#ctl00_TopBar_PaginaSistemaArea1_ctl16_txtBusca'
+    extra: '#ctl00_TopBar_PaginaSistemaArea1_ctl15_txtBusca'
+    barateiro: '#ctl00_TopBar_PaginaSistemaArea1_ctl04_txtBusca'
+  mobile:
+    finder: css
+    default: '#ctl00_TopBar_PaginaSistemaArea1_ctl15_txtBusca'
+    barateiro: '.search-input'
+

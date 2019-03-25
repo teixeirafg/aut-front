@@ -1,0 +1,8 @@
+logist.button_withdraw_cb:
+  description: "Econtra o botão 'Retirar'"
+  desktop:
+    finder: xpath
+    default: ".//a[@id='ctl00_Conteudo_rptLojistas_ctl00_popRetirar']"
+  mobile:
+    finder: ''
+    default: ''

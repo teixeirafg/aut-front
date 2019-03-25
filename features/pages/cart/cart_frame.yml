@@ -1,0 +1,6 @@
+cart.wedding_list_iframe:
+  description: "Encontra o iframe do pop-up de aviso de lista de casamento"
+  desktop:
+    default: "TB_iframeContent"
+  mobile:
+    default: "TB_iframeContent"

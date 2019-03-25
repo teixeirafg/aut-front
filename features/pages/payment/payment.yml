@@ -1,0 +1,547 @@
+payment.title_pagamento:
+  description: "Verifica que está na página de pagamento"
+  desktop:
+    finder: css
+    default: ".SubtituloPayment>h2"
+  mobile:
+    finder: css
+    default: ".payment-methods"
+
+payment.choose_credit_method:
+  description: "Seleciona a opção de pagamento com crédito"
+  desktop:
+    finder: css
+    default: ".credit"
+  mobile:
+    finder: css
+    default: ".payment-methods-ic.p-ic-credit-card"
+
+payment.choose_boleto_method:
+  description: "Seleciona a opção de pagamento com boleto"
+  desktop:
+    finder: css
+    default: ".paymentMethods .boleto"
+  mobile:
+    finder: css
+    default: ".payment-methods-ic.p-ic-billing"
+
+payment.choose_debit_method:
+  description: "Seleciona a opção de pagamento com debito"
+  desktop:
+    finder: css
+    default: ".debit"
+
+payment.choose_paypal_method:
+  description: "Seleciona a opção de pagamento com paypal"
+  desktop:
+    finder: css
+    default: ".paypal"
+  mobile:
+    finder: css
+    default: ".payment-methods-ic.p-ic-paypal-method"
+
+payment.choose_multicheque_method:
+  description: "Seleciona a opção de pagamento com multicheque"
+  desktop:
+    finder: css
+    default: ".multi"
+
+payment.choose_giftcard_method:
+  description: "Seleciona a opção de pagamento com giftcard"
+  desktop:
+    finder: css
+    default: ".giftcard"
+
+payment.choose_visa_checkout_method:
+  description: "Seleciona a opção de pagamento com visa checkout"
+  desktop:
+    finder: css
+    default: "[title='VisaCheckout']"
+  mobile:
+    finder: css
+    default: ".payment-methods-ic.p-ic-visacheckout-method"
+
+payment.choose_master_pass_method:
+  description: "Seleciona a opção de pagamento com master pass"
+  desktop:
+    finder: css
+    default: "[title='MasterPass']"
+
+payment.credit_card_number:
+  description: "Encontra o campo de número de cartão de crédito"
+  desktop:
+    finder: css
+    default: "#numeroCartao-cartao-novo-1"
+    barateiro: "#NrCartao"
+  mobile:
+    finder: css
+    default: "#number"
+
+payment.expiration_date:
+  description: "Encontra o campo de validade do cartão de crédito"
+  mobile:
+    finder: css
+    default: "#expirationDate"
+
+payment.credit_card_month:
+  description: "Encontra o campo de mês de validade do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-1"
+    barateiro: "[data-id='cc'] #DtValidadeMes"
+
+payment.credit_card_month_options:
+  description: "Encontra o campo de mês de validade do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #DtValidadeMes option"
+
+payment.credit_card_year:
+  description: "Encontra o campo de ano de validade do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-1"
+    barateiro: "[data-id='cc'] #DtValidadeAno"
+
+payment.credit_card_year_options:
+  description: "Encontra o campo de ano de validade do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #DtValidadeAno option"
+
+
+payment.credit_card_name:
+  description: "Encontra o campo de nome do usuario do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#nomeTitular-cartao-novo-1"
+    barateiro: "[data-id='cc'] #Nome"
+  mobile:
+    finder: css
+    default: "#name"
+
+payment.credit_card_cvv:
+  description: "Encontra o campo de cvv do cartão de crédito"
+  desktop:
+    finder: css
+    default: "#cvv-cartao-novo-1"
+    barateiro: "[data-id='cc'] #NrSeguranca"
+  mobile:
+    finder: css
+    default: "#securityCode"
+
+payment.credit_card_keep_data:
+  description: "Encontra o campo de armazenar os dados do cartão para proxima compra"
+  desktop:
+    finder: css
+    default: "#armazenar-cartao-novo-1"
+  mobile:
+    finder: css
+    default: ".slider.round"
+
+payment.credit_card_installments_box:
+  description: "Encontra o campo de parcelamento do cartão"
+  desktop:
+    finder: css
+    default: "#qtde-parcelamento-cartao-novo-1"
+    barateiro: "[data-id='cc'] #QtdeParcelas"
+
+payment.credit_card_installments_list:
+  description: "Encontra a lista de parcelamento do cartão"
+  desktop:
+    finder: css
+    default: "#parcelamento-cartao-novo-1"
+    barateiro: "[data-id='cc'] #IdFormaPagamentoParcelamento"
+  mobile:
+    finder: css
+    default: "#installments"
+
+payment.credit_card_installments_list_option:
+  description: "Encontra a lista de parcelamento do cartão"
+  desktop:
+    finder: css
+    default: "#parcelamento-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #IdFormaPagamentoParcelamento option"
+  mobile:
+    finder: css
+    default: "#installments option"
+
+payment.credit_card_one_value:
+  description: "Encontra o valor a ser pago no primeiro cartão"
+  desktop:
+    finder: css
+    default: "#valorCartao-cartao-novo-1"
+    barateiro: "#ValorNesteCartao"
+  mobile:
+    finder: css
+    default: "#value"
+
+payment.credit_card_one_number:
+  description: "Encontra o campo de número do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#numeroCartao-cartao-novo-1"
+    barateiro: "#NrCartao"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #number"
+
+payment.credit_card_one_expiration_date:
+  description: "Encontra o campo de validade do primeiro cartão de crédito"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #expirationDate"
+
+payment.credit_card_one_month:
+  description: "Encontra o campo de mês de validade do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-1"
+    barateiro: "[data-id='cc'] #DtValidadeMes"
+
+payment.credit_card_one_month_options:
+  description: "Encontra o campo de mês de validade do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #DtValidadeMes option"
+
+payment.credit_card_one_year:
+  description: "Encontra o campo de ano de validade do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-1"
+    barateiro: "[data-id='cc'] #DtValidadeAno"
+
+payment.credit_card_one_year_options:
+  description: "Encontra o campo de ano de validade do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #DtValidadeAno option"
+
+
+payment.credit_card_one_name:
+  description: "Encontra o campo de nome do usuario do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#nomeTitular-cartao-novo-1"
+    barateiro: "[data-id='cc'] #Nome"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #name"
+
+payment.credit_card_one_cvv:
+  description: "Encontra o campo de cvv do primeiro cartão de crédito"
+  desktop:
+    finder: css
+    default: "#cvv-cartao-novo-1"
+    barateiro: "[data-id='cc'] #NrSeguranca"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #securityCode"
+
+payment.credit_card_one_keep_data:
+  description: "Encontra o campo de armazenar os dados do primeiro cartão para proxima compra"
+  desktop:
+    finder: css
+    default: "#armazenar-cartao-novo-1"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) .slider.round"
+
+payment.credit_card_one_installments_box:
+  description: "Encontra o campo de parcelamento do primeiro cartão"
+  desktop:
+    finder: css
+    default: "#qtde-parcelamento-cartao-novo-1"
+    barateiro: "[data-id='cc'] #QtdeParcelas"
+
+payment.credit_card_one_installments_list:
+  description: "Encontra a lista de parcelamento do primeiro cartão"
+  desktop:
+    finder: css
+    default: "#parcelamento-cartao-novo-1"
+    barateiro: "[data-id='cc'] #IdFormaPagamentoParcelamento"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #installments"
+
+payment.credit_card_one_installments_list_option:
+  description: "Encontra a lista de parcelamento do primeiro cartão"
+  desktop:
+    finder: css
+    default: "#parcelamento-cartao-novo-1 option"
+    barateiro: "[data-id='cc'] #IdFormaPagamentoParcelamento option"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(1) #installments option"
+
+payment.credit_card_two_value:
+  description: "Encontra o valor a ser pago no primeiro cartão"
+  desktop:
+    finder: css
+    default: "#valorCartao-cartao-novo-2"
+    barateiro: "#ValorNesteCartao2"
+  mobile:
+    finder: css
+    default: "#CreditCard2"
+
+payment.credit_card_two_number:
+  description: "Encontra o campo de número de cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#numeroCartao-cartao-novo-2"
+    barateiro: "#NrCartao2"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) #number"
+
+payment.credit_card_two_expiration_date:
+  description: "Encontra o campo de data de validade do segundo cartão"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) #expirationDate"
+
+payment.credit_card_two_month:
+  description: "Encontra o campo de mês de validade do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-2"
+    barateiro: "#DtValidadeMes2"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.credit_card_two_month_options:
+  description: "Encontra o campo de mês de validade do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#validadeMes-cartao-novo-2 option"
+    barateiro: "#DtValidadeMes2 option"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.credit_card_two_year:
+  description: "Encontra o campo de ano de validade do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-2"
+    barateiro: "#DtValidadeAno2"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.credit_card_two_year_options:
+  description: "Encontra o campo de ano de validade do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#validadeAno-cartao-novo-2 option"
+    barateiro: "#DtValidadeAno2 option"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.credit_card_two_name:
+  description: "Encontra o campo de nome do usuario do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#nomeTitular-cartao-novo-2"
+    barateiro: "#Nome2"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) #name"
+
+payment.credit_card_two_cvv:
+  description: "Encontra o campo de cvv do cartão de crédito do segundo cartão"
+  desktop:
+    finder: css
+    default: "#cvv-cartao-novo-2"
+    barateiro: "#NrSeguranca2"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) #securityCode"
+
+payment.credit_card_two_keep_data:
+  description: "Encontra o campo de armazenar os dados do segundo cartão para proxima compra"
+  desktop:
+    finder: css
+    default: "#armazenar-cartao-novo-2"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) .slider.round"
+
+payment.credit_card_two_installments_box:
+  description: "Encontra o campo de parcelamento do segundo cartão"
+  desktop:
+    finder: css
+    default: "#qtde-parcelamento-cartao-novo-2"
+    barateiro: "#QtdeParcelas2"
+
+payment.credit_card_two_installments_list:
+  description: "Encontra a lista de parcelamento do cartão do segundo cartão"
+  desktop:
+    finder: css
+    default: "#parcelamento-cartao-novo-2"
+    barateiro: "#IdFormaPagamentoParcelamento2"
+  mobile:
+    finder: css
+    default: ".ui-view form:nth-child(3) #installments option"
+
+payment.credit_card_boleto_value:
+  description: "Encontra o botão do boleto a ser pago junto com o cartão de crédito"
+  desktop:
+    finder: css
+    default: "#valorBoleto"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.credit_card_finish_payment:
+  description: "Encontra o botão para finalizar a compra"
+  desktop:
+    finder: css
+    default: "#btCredito"
+  mobile:
+    finder: css
+    default: ".ui-view .primary.expanded.btn.button-loading.active"
+
+payment.open_payment_options_mobile:
+  description: "Seleciona o botao de mais opções de pagamento"
+  mobile:
+    finder: css
+    default: ".payment-card-selector__toggle"
+
+payment.credit_card_choose_credit_card:
+  description: "Seleciona a opção de um cartão"
+  mobile:
+    finder: css
+    default: ".ic-credit-card"
+
+payment.credit_card_choose_credit_card_and_boleto:
+  description: "Seleciona a opção de boleto + cartão"
+  desktop:
+    finder: css
+    default: "#btFpBoletoMaisCartao"
+  mobile:
+    finder: css
+    default: "[ui-sref='checkout-step-2.cards.billet-card']"
+
+payment.credit_card_choose_two_credit_cards:
+  description: "Seleciona a opção de dois cartões"
+  desktop:
+    finder: css
+    default: ".bt.bt2Cards.ng-binding:not([id='btFpBoletoMaisCartao'])"
+    barateiro: ".bt.bt2Cards"
+  mobile:
+    finder: css
+    default: "[ui-sref='checkout-step-2.cards.two']"
+
+payment.debit_methods:
+  description: "Encontra as opções para pagamento com débito"
+  desktop:
+    finder: css
+    default: ".fDebit label"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_card_number:
+  description: "Encontra o campo de número de cartão para multicheque"
+  desktop:
+    finder: css
+    default: "#Numero"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_month:
+  description: "Encontra o campo de data de validade - mês"
+  desktop:
+    finder: css
+    default: "#DtValidadeMes"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_year:
+  description: "Encontra o campo de data de validade - ano"
+  desktop:
+    finder: css
+    default: "#DtValidadeAno"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_name:
+  description: "Encontra o campo de nome do dono do cartão do multicheque"
+  desktop:
+    finder: css
+    default: "#Nome"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_cvv:
+  description: "Encontra o campo de CVV cartão do multicheque"
+  desktop:
+    finder: css
+    default: "#CVV"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.multicheque_finish_payment:
+  description: "Finaliza o pedido com multicheque"
+  desktop:
+    finder: css
+    default: "#mc_validar"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.debito_online_finish_payment:
+  description: "Encontra botão para concluir compra com debito"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='btPagDebito']"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.debito_online_modal_debito_conta_button_fechar:
+  description: "Encontra botão 'Fechar 'no modal Débito em conta"
+  desktop:
+    finder: xpath
+    default: ".//button[@id='btnFechar']"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.debito_online_modal_advertisement:
+  description: "Encontra botão 'Fechar 'no modal Débito em conta"
+  desktop:
+    finder: xpath
+    default: ".//span[@id='btFechar']"
+  mobile:
+    finder: ''
+    default: ''
+
+payment.boleto_finish_payment:
+  description: "Encontra botão para concluir compra com boleto"
+  desktop:
+    finder: css
+    default: "#btPagBoleto"
+  mobile:
+    finder: css
+    default: ".ui-view .primary.expanded.btn.button-loading.active"
+
+payment.load_spinner:
+  description: "Encontra o spinner que indica carregamento da pagina"
+  desktop:
+    finder: css
+    default: "#block"
+

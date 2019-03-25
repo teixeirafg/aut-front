@@ -1,0 +1,20 @@
+section_main_menu_mobile.mobile_a_dashboard:
+  description: "Abre o menu mobile"
+  mobile:
+    finder: css
+    default: ".ic-navbar.ic-menu"
+
+section_main_menu_mobile.div_profile_login:
+  description: "Abre o campo de login"
+  mobile:
+    finder: css
+    default: ".ic-menu-profile"
+
+
+section_main_menu_mobile.my_account:
+  description: "Encontra o link de minha conta"
+  mobile:
+    finder: css
+    pontofrio: ''
+
+

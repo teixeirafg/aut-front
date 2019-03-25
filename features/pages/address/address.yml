@@ -1,0 +1,167 @@
+address.title:
+  description: "Verifica que está na página de endereço"
+  desktop:
+    finder: css
+    default: ".bcEndereco.on"
+  mobile:
+    finder: css
+    default: ".address"
+
+address.select_endereco:
+  description: "Seleciona o endereço de entrega"
+  desktop:
+    finder: css
+    default: "#IdClienteEnderecoSelecionado option"
+  mobile:
+    finder: css
+    default: "#checkout-address option"
+
+address.button_concluir:
+  description: "Clica no botão concluir o endereço"
+  desktop:
+    finder: css
+    default: "#btSelecionarPagamento"
+  mobile:
+    finder: css
+    default: "[data-id-elem='btnContinue']"
+    extra: ".address .btn.primary.expanded"
+
+address.random_delivery:
+  description: "Seleciona uma entrega aleatória disponível"
+  desktop:
+    finder: css
+    default: "#IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: css
+    default: ".radio-label.lst-radio-position"
+
+address.expressa_delivery:
+  description: "Seleciona o tipo de entrega expressa"
+  desktop:
+    finder: css
+    default: ".grp.tEntrega.expressa.on #IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: css
+    default: "'[for='express']'"
+
+address.normal_delivery:
+  description: "Seleciona o tipo de entrega normal"
+  desktop:
+    finder: xpath
+    default: ".//input[@data-id='endereco_entrega1' and not(disabled='disabled')]" #".grp.tEntrega.normal.on #IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: css
+    default: "[for='normal']"
+
+address.agendada_delivery:
+  description: "Seleciona o tipo de entrega agendada"
+  desktop:
+    finder: xpath
+    default: ".//input[@data-id='endereco_entrega5' and not(disabled='disabled')]"
+  mobile:
+    finder: css
+    default: "[for='schedule']"
+
+address.agendada_delivery_day:
+  description: "Seleciona o dia do tipo de entrega agendada"
+  desktop:
+    finder: css
+    default: "#DataSelecionada"
+  mobile:
+    finder: css
+    default: ".schedule-option .ng-pristine.ng-untouched.ng-valid.ng-not-empty"
+
+address.agendada_delivery_time:
+  description: "Seleciona o periodo do tipo de entrega agendada"
+  desktop:
+    finder: css
+    default: "#IdPeriodoSelecionado option"
+  mobile:
+    finder: css
+    default: ".schedule-option .ng-pristine.ng-untouched.ng-valid.ng-empty"
+
+address.mesmo_dia_delivery:
+  description: "Seleciona o tipo de entrega mesmo dia"
+  desktop:
+    finder: xpath
+    default: ".//input[@data-id='endereco_entrega26' and not(disabled='disabled')]" #".grp.tEntrega.mesmoDia.on #IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: ''
+    default: ''
+
+address.super_expressa_delivery:
+  description: "Seleciona o tipo de entrega super expressa"
+  desktop:
+    finder: xpath
+    default: ".//input[@data-id='endereco_entrega10' and not(disabled='disabled')]" #".grp.tEntrega.urgente.on #IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: css
+    default: "[for='superExpress']"
+
+address.retira_rapido_delivery:
+  description: "Seleciona o tipo de entrega retira rápido"
+  desktop:
+    finder: xpath
+    default: ".//input[@data-id='endereco_entrega12' and not(disabled='disabled')]" #".grp.tEntrega.pickup.on #IdEntregaTipoSelecionado:not([disabled='disabled'])"
+  mobile:
+    finder: ''
+    default: "[for='pickup']"
+
+address.retira_rapido_delivery_estado:
+  description: "Seleciona o estado do tipo de entrega retira rapido"
+  desktop:
+    finder: css
+    default: ".estado>select option"
+
+address.retira_rapido_delivery_regiao:
+  description: "Seleciona a regiao do tipo de entrega retira rapido"
+  desktop:
+    finder: css
+    default: ".regiao>select option"
+
+address.retira_rapido_delivery_cidade:
+  description: "Seleciona a cidade do tipo de entrega retira rapido"
+  desktop:
+    finder: css
+    default: ".cidade>select option"
+
+address.retira_rapido_delivery_bairro:
+  description: "Seleciona o bairro do tipo de entrega retira rapido"
+  desktop:
+    finder: css
+    default: ".bairro>select option"
+
+address.retira_rapido_choose_delivery:
+  description: "Seleciona o bairro do tipo de entrega retira rapido"
+  mobile:
+    finder: css
+    default: ".btn.btn-primary.expanded"
+
+address.input_cell_phone:
+  description: "Encontra o input 'Receba código de abertura por SMS'"
+  desktop:
+    finder: css
+    default: "#CelularParaEnvioDeCodigo"
+  mobile:
+    finder: ''
+    default: ''
+
+address.frame_close:
+  description: "Fecha o frame mobile"
+  mobile:
+    finder: css
+    default: '.close'
+    pontofrio: ".close__icon"
+
+address.block_spinning:
+  description: "Encontra o spinning block"
+
+
+address.load_spinner:
+  description: "Encontra o spinner de carregamento"
+  desktop:
+    finder: css
+    default: "#blockMsg"
+  mobile:
+    finder: css
+    default: ".spinner"

@@ -1,0 +1,136 @@
+extended_warranty.title:
+  description: "Verifica que está na página de garantia estendida"
+  desktop:
+    finder_casasbahia: xpath
+    casasbahia: ".//h2[text()='Garantia Estendida']"
+    finder: css
+    default: ".extended-warranty"
+    barateiro: ".warranty"
+  mobile:
+    finder: css
+    default: ".warranty-wrapper"
+
+extended_warranty.button_continuar:
+ description: "Acessa a tela de garantia estendida"
+ desktop:
+   finder: css
+   default: ".decline-button"
+   barateiro: ".continue-button"
+ mobile:
+   finder: css
+   default: ".btn.neutral.expanded"
+
+extended_warranty.select_garantia_12_meses:
+  description: "Seleciona garantia de 12 meses"
+  desktop:
+    finder: css
+    default: ".extended-warranty .plan-box.option-01 .input-custom"
+    extra: ".plan-box.option-01 a"
+    barateiro: "[for='prazo12meses'] .input-custom"
+  mobile:
+    finder: xpath
+    default: "//*[text()[contains(.,'+12')]]/ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+
+extended_warranty.select_garantia_24_meses:
+  description: "Seleciona garantia de 24 meses"
+  desktop:
+    finder: css
+    default: ".extended-warranty .plan-box.option-02 .input-custom"
+    extra: ".plan-box.option-02 a"
+    barateiro: "[for='prazo24meses'] .input-custom"
+mobile:
+  finder: xpath
+  default: "//*[text()[contains(.,'+24')]]/ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+extended_warranty.select_garantia_36_meses:
+  description: "Seleciona garantia de 36 meses"
+  desktop:
+    finder: css
+    default: ".extended-warranty .plan-box.option-03 .input-custom"
+    extra: ".plan-box.option-03 a"
+    barateiro: "[for='prazo36meses'] .input-custom"
+  mobile:
+    finder: xpath
+    default: "//*[text()[contains(.,'+36')]]/ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+extended_warranty.select_random_garantia:
+  description: "Seleciona garantia randomicamente"
+  desktop:
+    finder: css
+    default: ".extended-warranty .input-custom"
+    extra: ".plan-box a"
+    barateiro: ".input-custom"
+  mobile:
+    finder: css
+    default: ".warranty-cards .swiper-slide-active .btn.text-uppercase"
+
+extended_warranty.change_garantia:
+  description: "Altera garantia mobile"
+  mobile:
+    finder: css
+    default: ".warranty-cards .swiper-pagination-bullet"
+
+extended_warranty.change_seguro:
+  description: "Altera seguro mobile"
+  mobile:
+    finder: css
+    default: ".staysafe-cards .swiper-pagination-bullet"
+
+extended_warranty.select_seguro_roubo:
+  description: "Seleciona seguro contra roubo"
+  desktop:
+    finder: css
+    default: ".keep-safe .plan-box.option-01 .input-custom"
+  mobile:
+    finder: xpath
+    default: "//*[text() = 'Roubo e Furto Qualificado']/ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+extended_warranty.select_seguro_quebra:
+  description: "Seleciona seguro contra quebra"
+  desktop:
+    finder: css
+    default: ".keep-safe .plan-box.option-02 .input-custom"
+  mobile:
+    finder: xpath
+    default: "//*[text() = 'Quebra Acidental']/ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+extended_warranty.select_seguro_roubo_e_quebra:
+  description: "Seleciona seguro contra roubo e quebra"
+  desktop:
+    finder: css
+    default: ".keep-safe .plan-box.option-03 .input-custom"
+  mobile:
+    finder: xpath
+    default: "//*[text()[(contains(.,'Roubo')) and (contains(.,'Quebra'))]]   /ancestor::div //*[@class[contains(.,'swiper-slide swiper-slide-active')]] //button"
+
+extended_warranty.select_random_seguro:
+  description: "Seleciona seguro randomicamente"
+  desktop:
+    finder: css
+    default: ".keep-safe .input-custom"
+  mobile:
+    finder: css
+    default: ".staysafe-cards .swiper-slide-active .btn.text-uppercase"
+
+
+extended_warranty.total_price:
+  description: "Encontra o valor total da garantia ou seguro desajado"
+  desktop:
+    finder: css
+    default: ".price>span>i"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+
+
+extended_warranty.spinning_block:
+  description: "Encontra o spinning de carregamento"
+  desktop:
+    finder: css
+    default: "[id='block']"
+  mobile:
+    finder: css
+    default: "[id='block']"

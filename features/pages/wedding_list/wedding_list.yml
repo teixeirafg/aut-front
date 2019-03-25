@@ -1,0 +1,63 @@
+wedding_list.img_logo:
+  description: "Logo de Lista de casamento"
+  desktop:
+    finder: css
+    default: "#navigationHeader .logo"
+  mobile:
+    finder: css
+    default: "#navigationHeader .logo"
+
+wedding_list.input_engaged:
+  description: "Caixa de pesquisa por noivos"
+  desktop:
+    finder: css
+    default: "#buscaNoivos #searchInputDiv > input"
+  mobile:
+    finder: css
+    default: "#buscaNoivos #searchInputDiv > input"
+
+wedding_list.button_engaged_list:
+  description: "Botão de pesquisa de lista de noivos"
+  desktop:
+    finder: css
+    default: "#buscaNoivos button"
+  mobile:
+    finder: css
+    default: "#buscaNoivos button"
+
+wedding_list.div_grid_engaged_list:
+  description: "Lista de noivos disponíveis"
+  desktop:
+    finder: css
+    default: ".features-noivos .grid"
+  mobile:
+    finder: css
+    default: ".features-noivos .grid"
+
+wedding_list.div_grid_engaged_list_options:
+  description: "Opções de noivos disponíveis"
+  desktop:
+    finder: css
+    default: ".features-noivos .grid > div"
+  mobile:
+    finder: css
+    default: ".features-noivos .grid > div"
+
+wedding_list.div_grid_gift_list:
+  description: "Lista de presentes dos noivos"
+  desktop:
+    finder: css
+    default: ".products"
+  mobile:
+    finder: css
+    default: ".products"
+
+wedding_list.div_grid_gift_list_options:
+  description: "Opções disponíveis na lista de presentes dos noivos"
+  desktop:
+    finder: css
+    default: ".products >ul li"
+  mobile:
+    finder: css
+    default: ".products >ul li"
+

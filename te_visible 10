@@ -1,0 +1,25 @@
+
+[1mFrom:[0m C:/Users/aluga.com/Documents/Projetos Automacao/vv-aut-front/features/pages/product_detail/modal_withdraw_fast.rb @ line 27 Comercio::Home::ModalWithdrawFast#select_store_withdraw:
+
+    [1;34m19[0m: [32mdef[0m [1;34mselect_store_withdraw[0m cep, withdraw_location
+    [1;34m20[0m:   [1;34m# current_page = page.driver.browser.window_handle[0m
+    [1;34m21[0m:   [1;34m#page.driver.browser.switch_to.frame @@iframe[0m
+    [1;34m22[0m: 
+    [1;34m23[0m:   into_frame [31m[1;31m'[0m[31mTB_iframeContent[1;31m'[0m[31m[0m
+    [1;34m24[0m:   sleep [1;34m2[0m
+    [1;34m25[0m:   page.find([33m:xpath[0m, [31m[1;31m"[0m[31m.//input[@class='lupa-modal home'][1;31m"[0m[31m[0m).click
+    [1;34m26[0m:   search_cep cep
+ => [1;34m27[0m:   binding.pry
+    [1;34m28[0m:   wait_until_teste_visible [1;34m10[0m
+    [1;34m29[0m:   wait_until_el_displayed [33m:xpath[0m, [31m[1;31m"[0m[31m.//div[@id='modal-principal' and @style=[1;31m"[0m[31m[0m[31m[1;31m"[0m[31m][1;31m"[0m[31m[0m
+    [1;34m30[0m:   select_withdraw_point withdraw_location
+    [1;34m31[0m:   exit_frame
+    [1;34m32[0m: 
+    [1;34m33[0m:   [1;34m# page.within_frame('TB_iframeContent') do[0m
+    [1;34m34[0m:   [1;34m#   sleep 5[0m
+    [1;34m35[0m:   [1;34m#   page.find(:xpath, ".//input[@class='lupa-modal home']").click[0m
+    [1;34m36[0m:   [1;34m#   search_cep cep[0m
+    [1;34m37[0m:   [1;34m#   select_withdraw_point withdraw_location[0m
+    [1;34m38[0m:   [1;34m# end[0m
+    [1;34m39[0m: [32mend[0m
+

@@ -1,0 +1,68 @@
+login.title:
+  description: "Verifica que está na página de login"
+  desktop:
+    finder: css
+    default: ".loginMain.loginIden>h2"
+  mobile:
+    finder: css
+    casasbahia: '#login'
+    default: "#email"
+
+login.input_email:
+  description: "Encontra o campo de login por email"
+  desktop:
+    finder: css
+    default: '#Email'
+  mobile:
+    finder: ':css'
+    default: '#email'
+
+login.input_senha:
+  description: "Encontra o campo de login por senha"
+  desktop:
+    finder: css
+    default: '#Senha'
+  mobile:
+    finder: css
+    default: '#password'
+
+login.button_continuar:
+  description: "Encontra o botão para fazer login"
+  desktop:
+    finder: css
+    default: '#btnClienteLogin'
+  mobile:
+    finder: css
+    default: '#btnClienteLogin'
+    barateiro: '.btn.primary.expanded'
+
+login.button_cadastrar:
+  description: "Encontra o botão para fazer o novo cadastro"
+  desktop:
+    finder: css
+    default: '#btnClienteCadastrar'
+  mobile:
+    finder: css
+    default: '.btn-link-container.text-center>p>a'
+
+login.link_meus_pedidos:
+  description: "Encontra o link para acessar a página de meus pedidos"
+  desktop:
+    finder: css
+    default: '.pedidos .lnk'
+  mobile:
+    finder: css
+    default: ''
+
+login.user_not_registered:
+  description: "Seleciona a opção de usuário sem cadastro"
+  desktop:
+    finder: css
+    default: '#rbNaoCadastrado'
+
+login.frame_close:
+  description: "Fecha o frame mobile"
+  mobile:
+    finder: css
+    default: '.close'
+    pontofrio: ".close__icon"

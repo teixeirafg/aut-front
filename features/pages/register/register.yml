@@ -1,0 +1,266 @@
+register.full_name:
+  description: "Encontra o campo de nome completo"
+  desktop:
+    finder: css
+    default: "#NomeCompleto"
+  mobile:
+    finder: css
+    default: '#name'
+
+register.cpf:
+  description: "Encontra o campo de cpf"
+  desktop:
+    finder: css
+    default: "#Cpf"
+  mobile:
+    finder: css
+    default: '#cpf'
+
+register.cellphone:
+  description: "Encontra o campo de celular"
+  mobile:
+    finder: css
+    default: '#cellphone'
+
+register.phone1_ddd:
+  description: "Encontra o campo de ddd do primeiro telefone"
+  desktop:
+    finder: css
+    default: "#Telefone1DDDPF"
+
+register.phone1_number:
+  description: "Encontra o campo de numero do primeiro telefone"
+  desktop:
+    finder: css
+    default: "#Telefone1PF"
+
+register.phone2_ddd:
+  description: "Encontra o campo de ddd do segundo telefone"
+  desktop:
+    finder: css
+    default: "#Telefone2DDDPF"
+
+register.phone2_number:
+  description: "Encontra o campo de numero do segundo telefone"
+  desktop:
+    finder: css
+    default: "#Telefone2PF"
+
+register.day_born:
+  description: "Encontra o campo do dia em que nasceu"
+  desktop:
+    finder: css
+    default: "#DataNascimentoDia"
+
+register.month_born:
+  description: "Encontra o campo do mês em que nasceu"
+  desktop:
+    finder: css
+    default: "#DataNascimentoMes"
+
+register.year_born:
+  description: "Encontra o campo do ano em que nasceu"
+  desktop:
+    finder: css
+    default: "#DataNascimentoAno"
+
+register.birth:
+  description: "Encontra o campo de data de nascimento"
+  mobile:
+    finder: css
+    default: "#birth"
+
+register.sex_male:
+  description: "Encontra o campo de sexo masculino"
+  desktop:
+    finder: css
+    default: "#Sexo[value='M']"
+  mobile:
+    finder: css
+    default: "[for='male']"
+
+register.sex_female:
+  description: "Encontra o campo de sexo feminino"
+  desktop:
+    finder: css
+    default: "#Sexo[value='F']"
+  mobile:
+    finder: css
+    default: "[for='female']"
+
+register.email:
+  description: "Encontra o campo de email"
+  desktop:
+    finder: css
+    default: "#Email"
+  mobile:
+    finder: css
+    default: '#email'
+
+register.email_confirmation:
+  description: "Encontra o campo de confirmação de email"
+  desktop:
+    finder: css
+    default: "#ConfirmarEmail"
+  mobile:
+    finder: css
+    default: '#emailConfirmation'
+
+register.password:
+  description: "Encontra o campo de senha"
+  desktop:
+    finder: css
+    default: "#Senha"
+  mobile:
+    finder: css
+    default: '#password'
+
+register.password_confirmation:
+  description: "Encontra o campo de confirmação de senha"
+  desktop:
+    finder: css
+    default: "#ConfirmarSenha"
+  mobile:
+    finder: css
+    default: "#passwordConfirmation"
+
+register.get_email_notification:
+  description: "Encontra o campo de receber notificações por email"
+  desktop:
+    finder: css
+    default: "#ReceberAvisoEmail"
+  mobile:
+    finder: css
+    default: "[for='contact-email']"
+
+register.get_sms_notification:
+  description: "Encontra o campo de receber notificações por SMS"
+  desktop:
+    finder: css
+    default: "#ReceberAvisoSms"
+  mobile:
+    finder: css
+    default: "[for='contact-sms']"
+
+register.finish_registration:
+  description: "Encontra o botão de finalizar cadastro"
+  desktop:
+    finder: css
+    default: "#btnClienteSalvar"
+  mobile:
+    finder: css
+    default: "#btnClienteRegister"
+    barateiro: ".btn.primary.expanded"
+
+register.choosePJ:
+  description: "Escolhe a opção de cadastro para pessoa jurídica"
+  desktop:
+    finder: css
+    default: ".pJuridica #FlagPJ"
+  mobile:
+    finder: css
+    default: "[for='pj']"
+
+register.social_name:
+  description: "Encontra o campo de razão social para PJ"
+  desktop:
+    finder: css
+    default: "#RazaoSocial"
+  mobile:
+    finder: css
+    default: "#company_name"
+
+register.fantasy_name:
+  description: "Encontra o campo de nome fantasia para PJ"
+  desktop:
+    finder: css
+    default: "#NomeFantasia"
+  mobile:
+    finder: css
+    default: "#trading_name"
+
+register.cnpj:
+  description: "Encontra o campo de CNPJ para PJ"
+  desktop:
+    finder: css
+    default: "#Cnpj"
+  mobile:
+    finder: css
+    default: "#cnpj"
+
+register.state_pj:
+  description: "Encontra o campo de estado da empresa"
+  desktop:
+    finder: css
+    default: "#EstadoSedeEmpresa"
+
+register.state_inscription:
+  description: "Encontra o campo de inscrição estadual da empresa"
+  desktop:
+    finder: css
+    default: "#InscricaoEstadual"
+  mobile:
+    finder: css
+    default: "#state_registration"
+
+register.no_state_inscription:
+  description: "Encontra o campo de isenção de inscrição estadual da empresa"
+  desktop:
+    finder: css
+    default: "#IsentoInscricaoEstadual"
+  mobile:
+    finder: css
+    default: "[for='state_registration_free']"
+
+register.simples_option:
+  description: "Encontra o campo de optante pelo simples"
+  desktop:
+    finder: css
+    default: "#FlagOptantePeloSimples"
+  mobile:
+    finder: css
+    default: "[for='select-simple']"
+
+register.phone1_pj_ddd:
+  description: "Encontra o campo de ddd do primeiro telefone pj"
+  desktop:
+    finder: css
+    default: "#Telefone1DDDPJ"
+
+register.phone1_pj_number:
+  description: "Encontra o campo de numero do primeiro telefone pj"
+  desktop:
+    finder: css
+    default: "#Telefone1PJ"
+
+register.phone2_pj_ddd:
+  description: "Encontra o campo de ddd do segundo telefone pj"
+  desktop:
+    finder: css
+    default: "#Telefone2DDDPJ"
+
+register.phone2_pj_number:
+  description: "Encontra o campo de numero do segundo telefone pj"
+  desktop:
+    finder: css
+    default: "#Telefone2PJ"
+
+register.pj_site:
+  description: "Encontra o campo de site pj"
+  desktop:
+    finder: css
+    default: "#Site"
+  mobile:
+    finder: css
+    default: '#site'
+
+
+
+
+
+
+
+
+
+
+

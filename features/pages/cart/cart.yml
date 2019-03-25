@@ -1,0 +1,133 @@
+cart.title:
+  description: "Verifica que está na página do carrinho"
+  desktop:
+    finder: xpath
+    default: ".//h2[text()='Meu Carrinho']"
+  mobile:
+    finder: css
+    default: '.button__cart-product'
+
+cart.empty_cart:
+  description: "Verifica que o carrinho está vazio"
+  desktop:
+    finder: css
+    default: ".emptyCart"
+  mobile:
+    finder: ''
+    default: ''
+
+cart.input_frete:
+  description: "Encontra o campo de cep"
+  desktop:
+    finder: xpath
+    default: ".//input[@id='Cep']"
+    finder_barateiro: css
+    casasbahia: "#Cep"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+cart.button_finish_payment:
+  description: "Clica no botão para concluir compra no carrinho"
+  desktop:
+    finder: xpath
+    default: "//*[@id='btnComprarMaisProdutosBottom']/parent::div/following-sibling::div/a"
+    finder_barateiro: css
+    barateiro: ".bt.btConcluir"
+  mobile:
+    finder: css
+    default: "[data-id-elem='btnFinishOrder']"
+
+cart.button_buy_more_products:
+  description: "Encontra o botão 'Comprar mais produtos'"
+  desktop:
+    finder: css
+    default: "#btnComprarMaisProdutos"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+cart.link_remove:
+  description: "Encontra o link para remover produtos do carrinho'"
+  desktop:
+    finder: xpath
+    default: ".//tr[1]/td[@class='quantidade']/a[@data-id='lnkRemover']"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+
+cart.check_garantia:
+  description: "Verifica a garantia atual"
+  desktop:
+    finder: css
+    default: ".nomeGarantia"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+cart.check_seguro:
+  description: "Verifica o seguro atual"
+  desktop:
+    finder: css
+    default: ".nomeFiqueSeguro"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+cart.modal_offer_ending_button_continue:
+  description: "Encontra o modal 'Esta oferta está acabando'"
+  desktop:
+    finder: xpath
+    default: ".//span[@class='granify-CTA-message']"
+  mobile:
+    finder: ''
+    default: ''
+    barateiro: ''
+
+cart.spinner:
+  description: "Verifica se a página está em carregamento"
+  desktop:
+    finder: css
+    default: "#blockMsg"
+
+cart.wedding_list_pop_up:
+  description: "Encontra o pop-up de aviso de lista de casamento"
+  desktop:
+    finder: css
+    default: ".popAvisoLista"
+  mobile:
+    finder: css
+    default: '.popAvisoLista'
+
+cart.wedding_list_pop_up_from:
+  description: "Encontra o campo 'De' do pop up de lista de casamento"
+  desktop:
+    finder: css
+    default: '.popAvisoLista #FormEmbalagem .from >input'
+  mobile:
+    finder: css
+    default: '.popAvisoLista #FormEmbalagem .from >input'
+
+cart.wedding_list_pop_up_message:
+  description: "Encontra o pop-up de aviso de lista de casamento"
+  desktop:
+    finder: css
+    default: '.popAvisoLista #FormEmbalagem .message >textarea'
+  mobile:
+    finder: css
+    default: '.popAvisoLista #FormEmbalagem .message >textarea'
+
+cart.wedding_list_pop_up_continue:
+  description: "Encontra o botão de continuar do pop-up de aviso de lista de casamento"
+  desktop:
+    finder: css
+    default: '.bts .bt.btConcluir'
+  mobile:
+    finder: css
+    default: '.bts .bt.btConcluir'

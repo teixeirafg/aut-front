@@ -1,0 +1,61 @@
+# Arquivo YML responsável por armazenar as url de domínio dos ambientes de Homologação
+# e de Produção do site da Casas Bahia
+
+casasbahia:
+  hlg:
+    home: http://www.casasbahiahlg.net
+    carrinho: http://carrinho.casasbahiahlg.net
+    lista_casamento:
+  stg:
+    home: http://www.casasbahia.com.br
+    carrinho: http://carrinho.casasbahia.com.br
+    busca: http://buscas.casasbahia.com.br
+    lista_casamento:
+  prd:
+    home: http://www.casasbahia.com.br
+    carrinho: https://carrinho.casasbahia.com.br
+    busca: http://buscas.casasbahia.com.br
+    lista_casamento: https://casamento.casasbahia.com.br
+
+
+extra:
+  hlg:
+    home:
+    carrinho:
+  stg:
+    home: http://www.extra.com.br
+    carrinho: http://carrinho.extra.com.br
+    busca: http://buscas.extra.com.br
+  prd:
+    home: http://www.extra.com.br
+    carrinho: http://carrinho.extra.com.br
+    busca: http://buscas.extra.com.br
+
+
+pontofrio:
+  hlg:
+    home:
+    carrinho:
+  stg:
+    home: http://www.pontofrio.com.br
+    carrinho: http://carrinho.pontofrio.com.br
+    busca: http://buscas.pontofrio.com.br
+  prd:
+    home: http://www.pontofrio.com.br
+    carrinho: http://carrinho.pontofrio.com.br
+    busca: http://buscas.pontofrio.com.br
+
+barateiro:
+  hlg:
+    home:
+    carrinho:
+  stg:
+    home: http://www.barateiro.com.br
+    carrinho: http://carrinho.barateiro.com.br
+    busca: http://buscas.barateiro.com.br
+  prd:
+    home: http://www.barateiro.com.br
+    carrinho: http://carrinho.barateiro.com.br
+    busca: http://buscas.barateiro.com.br
+
+

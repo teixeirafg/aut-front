@@ -1,0 +1,47 @@
+# Arquivo YML responsável por armazenar todas as mensagems exibidas no
+# site das bandeiras
+
+#Mensagens de erro do modal
+cep_inexistente: Informe um CEP válido
+cep_invalido: Este CEP não é válido. Vamos tentar novamente
+cep_nao_encontrado:  Desculpe! nao encontramos nenhum ponto de retirada próximo ao local informado"  mais Botão Receber em Casas
+cep_erro_inesperado: Ops, ocorreu um erro inesperado! Tente mais tarde.
+####
+
+cep_invalido: Informe um Cep válido.
+agendada: Agendada
+garantia_12_meses: SEGURO DE GARANTIA ESTENDIDA ORIGINAL DE 12 MESES
+garantia_24_meses: SEGURO DE GARANTIA ESTENDIDA ORIGINAL DE 24 MESES
+garantia_36_meses: SEGURO DE GARANTIA ESTENDIDA ORIGINAL DE 36 MESES
+seguro_roubo_furto_quebra: 1 ano de Seguro, Roubo, Furto Qualificado e Quebra Acidental
+seguro_roubo_furto: 1 ano de Seguro contra Roubo e Furto Qualificado
+seguro: 1 ano de Seguro Contra Quebra Acidental
+email_senha_incorreto: Email ou senha incorretos.
+formato_email_invalido: Formato de Email inválido
+mensagem_cupom_invalido: O Cupom digitado não é válido. Confira se o código digitado está correto, ou, se uma promoção melhor está sendo aplicada em seu carrinho de compras.
+mensagem_meu_carrinho: Meu Carrinho
+mensagem_esqueci_minha_senha: Em instantes, você receberá um
+mensagem_resumo_compra: Resumo da compra
+mensagem_dados_pessoais: Dados Pessoais
+mensagem_dados_empresa: Dados da Empresa
+mensagem_dados_login: Acesse com seu email
+mensagem_mes_pagamento_invalido: Data de Validade (MÊS) do cartão inválido.
+mensagem_ano_pagamento_invalido: Informe a data de validade.
+mensagem_limite_nome_invalido: O campo "Nome do Titular", possui erro de preenchimento. Você precisa preencher com pelo menos duas palavras.
+mensagem_codigo_seguranca_invalido: Informe o cód.de segurança.
+mensagem_troca_forma_pagamento: Trocar forma de pagamento
+mensagem_pagar_dois_cartoes: Cartão de Crédito 1
+mensagem_informe_nome: Informe o nome impresso no cartão de crédito.
+mensagem_informe_cartao: Informe o número do cartão de crédito.
+mensagem_informe_qtd_parcelas: Escolha o número de parcelas de pagamento do seu cartão em opções de parcelamento e depois clique em finalizar compra.
+mensagem_qtd_invalida: Desculpe, mas só é possível comprar até 6 unidades do item
+mensagem_sem_produto_carrinho: Não há produtos em seu carrinho.
+mensagem_esqueci_minha_senha_modal: Esqueci minha senha
+mensagem_formato_email_invalido: Formato de Email inválido
+mensagem_DDD_invalido: DDD do telefone inválido
+mensagem_email_obrigatorio: O campo Email é obrigatório
+mensagem_senha_invalida: O campo Senha deve ter entre 4 e 18 caracteres
+mensagem_parc_invalida: Escolha o número de parcelas de pagamento do seu cartão em opções de parcelamento e depois clique em finalizar compra.
+mensagem_conf_senha_invalida: O campo Confirmar de Senha deve ter entre 4 e 18 caracteres
+mensagem_opcoes_entrega: Selecione a opção de entrega desejada
+label_entrega_mesmo_dia: Mesmo Dia
